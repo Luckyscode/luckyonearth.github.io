@@ -4,11 +4,12 @@
     box-sizing: border-box;
 }
 
-.welcome-message,#color-box{
+.welcome-message{
     display:flex;
     align-items: center;
     justify-items: center;
     flex-direction: column;
+    text-align:center;
     margin: 26px;
     padding: 30px;
     
@@ -16,10 +17,10 @@
 }
 
 #color-box {
-    /* display: flex;
+     display: flex;
     margin: 15px;
     align-items: center;
-    justify-items: center; */
+    justify-items: center; 
     background-color:rgb(219,122,147);
     width:150px;
     height:150px;
